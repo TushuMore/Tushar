@@ -10,7 +10,7 @@ const About = () => {
       {/* Background doted */}
       <div className="h-[70rem] sm:h-[65rem] xs:h-[60rem] w-full  dark:bg-dot-white/[0.01] bg-dot-white/[0.2] absolute left-0 top-20 flex items-center justify-center">
         {/* Radial gradient for the container to give a faded look */}
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_40%,black)] sm:hidden"></div>
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black bg-black-100 [mask-image:radial-gradient(ellipse_at_center,transparent_40%,black)] hidden"></div>
       </div>
 
 
